@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Continent Map</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <div id="map-container">
+        <svg id="map"></svg>
+        <button id="reset-button" class="reset-button">
+            <img src="reset-icon.png" alt="Reset Map" width="24" height="24">
+        </button>
+    </div>
+    <div id="sidebar">
+        <div id="bar-chart"></div>
+        <div id="donut-chart"></div> 
+    </div>
+    <script src="script.js"></script>
+    <div class="tooltip"></div> 
+</body>
+</html>
